@@ -1,2 +1,2 @@
 # BS_webclient
-for webclient devolopment
+for webclient development
