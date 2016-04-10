@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- bootstrap 我们利用它做CSS的布局，详见 http://www.bootcss.com/ -->
+<html ng-app="UserInfoMudule">
+<head>
+	<meta charset="UTF-8">
+	<!-- 注意bootstrap的href路径 -->
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+	<script src="js/angular-1.3.0"></script> 
+	<!-- <script src="Form.js"></script> -->
+</head>
+<body>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			 <div class="panel-title">栅格系统</div>
+		</div>
+		<div class="panel-body">
+			 <div class="raw">
+                <!-- 将屏幕分成12列，行数无限 -->
+			 	<div class="col-md 12">
+			 	    <!-- 水平排布 -->
+			 		<form class="form-horizontal">
+			 		    <!-- 每个form元素需用form-group包裹 -->
+			 			<div class="form-group">
+			 				<label for="" class="col-md-2 control-label">
+			 					邮箱：
+			 				</label>
+			 				<div class="col-md-10">
+			 					  <input type="email" class="form-control" placeholder="Email">
+			 				</div>
+			 			</div>
+			 			<div class="form-group">
+			 				<label for="" class="col-md-2 control-label">
+			 					密码：
+			 				</label>
+			 				<div class="col-md-10">
+			 					  <input type="password" class="form-control" placeholder="Password">
+			 				</div>
+			 			</div>
+			 			<div class="form-group">
+			 				<div class="col-md-offset-2 col-md-10">
+			 					<div class="checkbox">
+			 						<input type="checkbox">自动登录
+			 					</div>
+			 				</div>
+			 			</div>
+			 		</form>
+			 	</div>
+			 </div>
+		</div>
+	</div>
+</body>
+</html>
